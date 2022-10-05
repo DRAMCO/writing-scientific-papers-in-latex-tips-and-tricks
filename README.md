@@ -3,6 +3,14 @@
 ## General
 
 
+## Meta
+
+### Highlight updates
+
+```latex
+\usepackage[dvipsnames]{xcolor} %required package
+\newcommand{\update}[1]{{\color{YellowOrange} #1}} %usage \update{this is changed.}
+```
 
 
 ## Math
