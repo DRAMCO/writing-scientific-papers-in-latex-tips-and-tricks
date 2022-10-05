@@ -2,6 +2,36 @@
 
 ## General
 
+
+
+
+## Math
+
+Typesetting and defining symbols:
+```latex
+\usepackage{xifthen}
+\newcommand{\prob}[1][]{%requires xifthen package%
+\ifthenelse{\isempty{#1}}%
+      {\ensuremath{P}}%
+    {\ensuremath{P\left\(#1\right\)}}%
+}
+\newcommand{\vect}[1]{\boldsymbol{\mathrm{#1}}}
+\newcommand{\mat}[1]{\boldsymbol{\mathrm{#1}}}
+\newcommand{\MSE}{\mathrm{MSE}}
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\moddef}{\mathrm{mod}}
+\newcommand{\diag}{\mathrm{diag}}
+\newcommand{\vecop}{\text{vec}}
+\newcommand{\CP}{L}
+\newcommand{\hddots}{\hdots}
+\newcommand*{\inC}[1]{\in\mathbb{C}^{#1}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\expt}[1]{\mathbb{E} \left\{#1\right\}}
+\newcommand{\cn}[2]{\ensuremath{\sim\mathcal{C}\mathcal{N}\left(#1,#2\right)}}
+```
+
+
 ## Bibliography
 
 Clean-up your bib files: https://flamingtempura.github.io/bibtex-tidy/
@@ -10,6 +40,10 @@ I also always enable the "Enclose values in double braces" option to keep the ca
 
 
 ## Figures
+
+### Python to Tikz
+
+tikzplotlib
 
 ### Extract data from existing figures
 
