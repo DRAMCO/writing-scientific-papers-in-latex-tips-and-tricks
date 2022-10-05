@@ -180,8 +180,8 @@ Typesetting and defining symbols:
 
 ## Bibliography
 
-    + Clean-up your bib files: https://flamingtempura.github.io/bibtex-tidy/
-    + I also always enable the "Enclose values in double braces" option to keep the capitalization in titles.
+- Clean-up your bib files: https://flamingtempura.github.io/bibtex-tidy/
+- I also always enable the "Enclose values in double braces" option to keep the capitalization in titles.
 
 
 
