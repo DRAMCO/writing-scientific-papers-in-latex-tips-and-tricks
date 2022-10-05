@@ -9,7 +9,7 @@
 
 ```
 %draw arc
-\draw (x, y) arc
+\draw (x0, y0) arc
     [
         start angle=50,
         end angle=310,
@@ -18,10 +18,10 @@
     ] ;
     
 %draw line 
-\draw[] (x, y) -- (-1, 17);
+\draw[] (x1, y1) -- (x2, y2);
 
 %add text
-\node[] (x,  y) {my text};
+\node[] (x3,  y3) {my text};
 ```
 
 example: 
