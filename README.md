@@ -15,6 +15,8 @@ I also always enable the "Enclose values in double braces" option to keep the ca
 
 https://automeris.io/WebPlotDigitizer/
 
+![](https://automeris.io/WebPlotDigitizer/images/wpd-scaled.png)
+
 ### Indicate lines in a plot
 
 ```latex
