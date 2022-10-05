@@ -7,7 +7,7 @@
 
 ### Indicate lines in a plot
 
-```
+```latex
 %draw arc
 \draw (x0, y0) arc
     [
