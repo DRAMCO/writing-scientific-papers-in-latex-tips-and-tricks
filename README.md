@@ -5,11 +5,12 @@
 
 ## Meta
 
-### Highlight updates
+### Highlight updates or inline comments
 
 ```latex
 \usepackage[dvipsnames]{xcolor} %required package
 \newcommand{\update}[1]{{\color{YellowOrange} #1}} %usage \update{this is changed.}
+\newcommand{\gilles}[1]{{\color{TealBlue} #1}} %usage \gilles{this is an inline comment of Gilles.}
 ```
 
 
@@ -55,9 +56,24 @@ Scripting files to format the file, remove duplicates, merge different abbr file
 - I also always enable the "Enclose values in double braces" option to keep the capitalization in titles.
 
 
+## Tables
+- Handy table generator: https://www.tablesgenerator.com/
+- I prefer to use the Booktabs table style. An example can be found in the following link: https://nhigham.com/2019/11/19/better-latex-tables-with-booktabs/
 
+## SI-units
 
+```latex
+\usepackage[per-mode=symbol]{siunitx}  %usage \SI{35}{\meter\squared}
+\DeclareSIUnit{\dBm}{dBm}	% add SI unit "dBm"
+```
 
+## Clever reference
+
+```latex
+\usepackage[capitalise]{cleveref}  %usage \cref{fig:figureReference}
+```
+Standard figure reference gives (\ref) gives: 1
+Cleveref figure references gives (\cref): fig. 1
 
 ## Figures
 
