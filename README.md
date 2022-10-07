@@ -72,8 +72,8 @@ Scripting files to format the file, remove duplicates, merge different abbr file
 ```latex
 \usepackage[capitalise]{cleveref}  %usage \cref{fig:figureReference}
 ```
-Standard figure reference gives (\ref) gives: 1
-Cleveref figure references gives (\cref): fig. 1
+- Standard figure reference gives (\ref) gives: 1
+- Cleveref figure references gives (\cref): fig. 1
 
 ## Figures
 
