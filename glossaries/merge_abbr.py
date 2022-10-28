@@ -3,7 +3,6 @@
 # results are stored in abbr-merged.tex
 
 # be sure that your files are located in the same folder as this script
-
 import re
 import sys
 
@@ -39,7 +38,7 @@ for file_name in args:
                             print(f"Change key of {line}?")
                             choice = input("N or <new-key>:")
                             if choice != "N":
-                                abbr[choice] = line
+                                abbr[choice] = line.replace(key, choice, 1)
                 else:
                     abbr[key] = line
         
@@ -50,4 +49,5 @@ with open("abbr-merged.tex", 'w') as f:
             f.write(f"%%%%%%%%%%%% {key[0].upper()} %%%%%%%%%%%%\n")
             first_letter = key[0]
         f.write(f"{abbr[key]}\n")
+
 
