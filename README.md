@@ -55,6 +55,23 @@ Scripting files to format the file, remove duplicates, merge different abbr file
 - Clean-up your bib files: https://flamingtempura.github.io/bibtex-tidy/
 - I also always enable the "Enclose values in double braces" option to keep the capitalization in titles.
 
+### Use Biblatex
+No cite or natbib package is required. For more info check: `https://www.overleaf.com/learn/latex/Bibliography_management_with_biblatex`.
+Always be aware there is a difference in citation style and bibliography style.
+
+```latex
+\usepackage[backend=biber,style=ieee]{biblatex}
+%\usepackage[backend=biber,language=dutch]{biblatex}
+\addbibresource{bib.bib}
+\AtBeginBibliography{\footnotesize}
+
+\begin{document}
+
+\printbibliography
+\end{document}
+
+```
+
 
 ## Tables
 - Handy table generator: https://www.tablesgenerator.com/
