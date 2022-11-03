@@ -46,7 +46,7 @@ Typesetting and defining symbols:
 More information: https://www.overleaf.com/learn/latex/Glossaries
 Base LaTex file is located [here](glossaries/abbr.tex).
 
-Scripting files to format the file, remove duplicates, merge different abbr files will be added later.
+Scripting files to format the file, remove duplicates, merge different abbr files is located [here](glossaries).
 
 
 
