@@ -126,3 +126,23 @@ https://automeris.io/WebPlotDigitizer/
 example: 
 
 ![My Image](figs/arc_example.PNG)
+
+## Shortening a Paper
+
+### Showing the number of referenced citations
+You can check how many times a certain reference is cited in the text. In this example every reference which is only cited once is colored red.
+
+```latex
+\usepackage[backend=biber, style=ieee, citestyle=numeric-comp, maxcitenames=1,mincitenames=1, maxbibnames=1, minbibnames=1,isbn=false, doi=false,citecounter=true]{biblatex}
+\addbibresource{bib.bib}
+\AtBeginBibliography{\footnotesize}
+\renewcommand{\finentrypunct}{%
+  \addperiod\space
+  \ifnum \value{citecounter} < 2
+  \color{red}
+  \else
+   \color{Green}
+    \fi
+  (Cited \arabic{citecounter})%
+}
+```
