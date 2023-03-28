@@ -129,8 +129,8 @@ example:
 
 ## Shortening a Paper
 
-### Showing the number of referenced citations
-You can check how many times a certain reference is cited in the text. In this example every reference which is only cited once is colored red.
+### Biblatex hacks
+You can check how many times a certain reference is cited in the text. In this example every reference which is only cited once is colored red. The number of names shown in the bibliography can be altered by the `maxbibnames=1, minbibnames=1` option.
 
 ```latex
 \usepackage[backend=biber, style=ieee, citestyle=numeric-comp, maxcitenames=1,mincitenames=1, maxbibnames=1, minbibnames=1,isbn=false, doi=false,citecounter=true]{biblatex}
