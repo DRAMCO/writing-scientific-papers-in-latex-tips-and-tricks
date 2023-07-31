@@ -134,7 +134,7 @@ example:
 
 ### Clean-up Project
 
-[LaTeX cleaner]{https://github.com/google-research/arxiv-latex-cleaner/} from Google Research.
+[LaTeX cleaner](https://github.com/google-research/arxiv-latex-cleaner/) from Google Research.
 
 #### LaTeX cleaner's main features:
 *   Removes all auxiliary files (`.aux`, `.log`, `.out`, etc.).
