@@ -164,8 +164,7 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 ### Shortening a Paper
 
 #### Biblatex hacks
-You can check how many times a certain reference is cited in the text. In this example every reference which is only cited once is colored red. The number of names shown in the bibliography can be altered by the `maxbibnames=1, minbibnames=1` option.
-
+- You can check how many times a certain reference is cited in the text. In this example, every reference which is only cited once is colored red. 
 ```latex
 \usepackage[backend=biber, style=ieee, citestyle=numeric-comp, maxcitenames=1,mincitenames=1, maxbibnames=1, minbibnames=1,isbn=false, doi=false,citecounter=true]{biblatex}
 \addbibresource{bib.bib}
@@ -180,3 +179,4 @@ You can check how many times a certain reference is cited in the text. In this e
   (Cited \arabic{citecounter})%
 }
 ```
+- The number of names shown in the bibliography can be altered by the `maxbibnames=1, minbibnames=1` option.
