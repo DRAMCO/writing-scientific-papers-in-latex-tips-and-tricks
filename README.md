@@ -130,9 +130,40 @@ example:
 
 ![My Image](figs/arc_example.PNG)
 
-## Shortening a Paper
+## Preparing for submission
 
-### Biblatex hacks
+### Clean-up Project
+
+[LaTeX cleaner]{https://github.com/google-research/arxiv-latex-cleaner/} from Google Research.
+
+#### LaTeX cleaner's main features:
+*   Removes all auxiliary files (`.aux`, `.log`, `.out`, etc.).
+*   Removes all comments from your code (yes, those are visible on arXiv and you
+    do not want them to be). These also include `\begin{comment}\end{comment}`,
+    `\iffalse\fi`, and `\if0\fi` environments.
+*   Optionally removes user-defined commands entered with `commands_to_delete`
+    (such as `\todo{}` that you redefine as the empty string at the end).
+*   Optionally allows you to define custom regex replacement rules through a
+    `cleaner_config.yaml` file.
+    
+There is a 50MB limit on arXiv submissions, so to make it fit:
+
+*   Removes all unused `.tex` files (those that are not in the root and not
+    included in any other `.tex` file).
+*   Removes all unused images that take up space (those that are not actually
+    included in any used `.tex` file).
+*   Optionally resizes all images to `im_size` pixels, to reduce the size of the
+    submission. You can allowlist some images to skip the global size using
+    `images_allowlist`.
+*   Optionally compresses `.pdf` files using ghostscript (Linux and Mac only).
+    You can allowlist some PDFs to skip the global size using
+    `images_allowlist`.
+
+
+
+### Shortening a Paper
+
+#### Biblatex hacks
 You can check how many times a certain reference is cited in the text. In this example every reference which is only cited once is colored red. The number of names shown in the bibliography can be altered by the `maxbibnames=1, minbibnames=1` option.
 
 ```latex
