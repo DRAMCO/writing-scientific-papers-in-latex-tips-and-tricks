@@ -136,6 +136,11 @@ example:
 
 [LaTeX cleaner](https://github.com/google-research/arxiv-latex-cleaner/) from Google Research.
 
+Usage: 
+```bash
+arxiv_latex_cleaner ./ --keep_bib
+```
+
 #### LaTeX cleaner's main features:
 *   Removes all auxiliary files (`.aux`, `.log`, `.out`, etc.).
 *   Removes all comments from your code (yes, those are visible on arXiv and you
