@@ -138,7 +138,7 @@ example:
 
 Usage: 
 ```bash
-arxiv_latex_cleaner ./ --keep_bib
+arxiv_latex_cleaner ./ --keep_bib --verbose
 ```
 
 #### LaTeX cleaner's main features:
