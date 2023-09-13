@@ -79,6 +79,13 @@ Always be aware there is a difference in citation style and bibliography style.
 ## Tables
 - Handy table generator: https://www.tablesgenerator.com/
 - I prefer to use the Booktabs table style. An example can be found in the following link: https://nhigham.com/2019/11/19/better-latex-tables-with-booktabs/
+- 
+### Hide columns
+```latex
+%% to hide a column in table 
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+```
 
 ## SI-units
 
