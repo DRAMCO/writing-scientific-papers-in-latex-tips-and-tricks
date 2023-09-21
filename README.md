@@ -1,8 +1,33 @@
 # Writing scientific papers in LaTex (Tips and Tricks)
 
-<!-- START doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- param::isNotitle::true:: -->
-<!-- END doctoc -->
+
+- [General](#general)
+- [Meta](#meta)
+  - [Finding weird Unicode](#finding-weird-unicode)
+  - [Highlight updates or inline comments](#highlight-updates-or-inline-comments)
+- [Math](#math)
+- [Glossaries](#glossaries)
+- [Bibliography](#bibliography)
+  - [Clean bib files](#clean-bib-files)
+  - [Use Biblatex](#use-biblatex)
+- [Tables](#tables)
+  - [Hide columns](#hide-columns)
+- [SI-units](#si-units)
+- [Clever reference](#clever-reference)
+- [Figures](#figures)
+  - [Python to Tikz](#python-to-tikz)
+  - [Extract data from existing figures](#extract-data-from-existing-figures)
+  - [Indicate lines in a plot](#indicate-lines-in-a-plot)
+- [Preparing for submission](#preparing-for-submission)
+  - [Clean-up Project](#clean-up-project)
+    - [LaTeX cleaner's main features:](#latex-cleaners-main-features)
+  - [Shortening a Paper](#shortening-a-paper)
+    - [Biblatex hacks](#biblatex-hacks)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
 ## General
