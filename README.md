@@ -1,7 +1,11 @@
 # Writing scientific papers in LaTex (Tips and Tricks)
 
-## General
+<!-- START doctoc -->
+<!-- param::isNotitle::true:: -->
+<!-- END doctoc -->
 
+
+## General
 
 ## Meta
 
