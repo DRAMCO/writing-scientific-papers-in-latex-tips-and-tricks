@@ -5,6 +5,13 @@
 
 ## Meta
 
+### Finding weird Unicode
+
+Add in the preamble the following to easily find a weird unicode in Overleaf.
+```latex
+\DeclareUnicodeCharacter{2500}{\color{red} FIX ME!!!!}
+```
+
 ### Highlight updates or inline comments
 
 ```latex
