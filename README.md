@@ -30,8 +30,27 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-## General
+## TeX Engine Settings
 
+Settings in VSCode with increased memory size (pgfplots) and shell escape:
+```json
+{
+			"name": "lualatexmk",
+			"command": "latexmk",
+			"args": [
+                "-shell-escape",                // <---- added this line
+                "--extra-mem-bot=10000000",     // <---- added this line
+                "--extra-mem-top=10000000",     // <---- added this line
+				"-synctex=1",
+				"-interaction=nonstopmode",
+				"-file-line-error",
+				"-lualatex",
+				"-outdir=%OUTDIR%",
+				"%DOC%"
+			],
+			"env": {}
+		}
+```
 ## Meta
 
 ### Finding weird Unicode
