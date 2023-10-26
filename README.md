@@ -4,7 +4,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- param::isNotitle::true:: -->
 
-- [General](#general)
+- [TeX Engine Settings](#tex-engine-settings)
 - [Meta](#meta)
   - [Finding weird Unicode](#finding-weird-unicode)
   - [Highlight updates or inline comments](#highlight-updates-or-inline-comments)
