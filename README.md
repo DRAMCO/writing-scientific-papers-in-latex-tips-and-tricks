@@ -78,7 +78,16 @@ Add in the preamble the following to easily find a weird unicode in Overleaf.
 
 
 \newcommand{\defineauthors}[1]{
-    \foreach \x [count=\xi from 1] in {#1} {   \expandafter\xdef\csname\x\endcsname####1{\noexpand\textcolor{\ColorList[\xi]}{[\unexpanded\expandafter{\x}: ####1]}}%
+    Personal commands for comments are:
+    \begin{itemize}
+    \foreach \x [count=\xi from 1] in {#1} {   
+        \item \textcolor{\ColorList[\xi]}{\textbackslash\unexpanded\expandafter{\x}\{\}}
+        }
+    
+    \end{itemize}
+
+    \foreach \x [count=\xi from 1] in {#1} { 
+    \expandafter\xdef\csname\x\endcsname####1{\noexpand\textcolor{\ColorList[\xi]}{[\unexpanded\expandafter{\x}: ####1]}}%
     }
 }
 \makeatother
@@ -86,6 +95,9 @@ Add in the preamble the following to easily find a weird unicode in Overleaf.
 %usage after begin document
 \defineauthors{all, gilles, emma, ozlem, lianet, nicola}
 ```
+
+![image](https://github.com/DRAMCO/writing-scientific-papers-in-latex-tips-and-tricks/assets/8626571/41b378a5-7219-4988-a46a-e7e4288ca9ba)
+
 
 
 ## Math
