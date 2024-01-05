@@ -65,7 +65,26 @@ Add in the preamble the following to easily find a weird unicode in Overleaf.
 ```latex
 \usepackage[dvipsnames]{xcolor} %required package
 \newcommand{\update}[1]{{\color{YellowOrange} #1}} %usage \update{this is changed.}
-\newcommand{\gilles}[1]{{\color{TealBlue} #1}} %usage \gilles{this is an inline comment of Gilles.}
+
+\usepackage[dvipsnames,svgnames, table]{xcolor} % Required to specify custom colors
+
+\usepackage{listofitems}
+\usepackage{pgffor}
+
+\makeatletter
+% Define your own list of colors
+\def\myColorList{LimeGreen,BrickRed,Fuchsia,Bittersweet,YellowOrange, YellowGreen, WildStrawberry}
+\readlist\ColorList\myColorList
+
+
+\newcommand{\defineauthors}[1]{
+    \foreach \x [count=\xi from 1] in {#1} {   \expandafter\xdef\csname\x\endcsname####1{\noexpand\textcolor{\ColorList[\xi]}{[\unexpanded\expandafter{\x}: ####1]}}%
+    }
+}
+\makeatother
+
+%usage after begin document
+\defineauthors{all, gilles, emma, ozlem, lianet, nicola}
 ```
 
 
