@@ -278,3 +278,7 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 }
 ```
 - The number of names shown in the bibliography can be altered by the `maxbibnames=1, minbibnames=1` option.
+- What if linebreaking of titles in bibliography not working correctly. Possible solutions:
+	- remove \usepackage{ulem}
+   	- remove \usepackage{cite}
+	- remove \usepackage{natbib}
