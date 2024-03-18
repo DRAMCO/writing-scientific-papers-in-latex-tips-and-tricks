@@ -129,6 +129,13 @@ Typesetting and defining symbols:
 
 ## Glossaries
 
+```latex
+\usepackage[xindy, toc, numberedsection, acronym]{glossaries}
+\usepackage{hyperref}
+\loadglsentries{abbr.tex}
+\makeglossaries 
+```
+
 More information: https://www.overleaf.com/learn/latex/Glossaries
 Base LaTex file is located [here](https://github.com/GillesC/abbreviations-latex).
 
