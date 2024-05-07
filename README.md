@@ -5,6 +5,10 @@
 <!-- param::isNotitle::true:: -->
 
 - [TeX Engine Settings](#tex-engine-settings)
+- [Aesthetics](#aesthetics)
+  - [Highlighting](#highlighting)
+    - [Round label](#round-label)
+    - [Grey highlight](#grey-highlight)
 - [Meta](#meta)
   - [Finding weird Unicode](#finding-weird-unicode)
   - [Highlight updates or inline comments](#highlight-updates-or-inline-comments)
