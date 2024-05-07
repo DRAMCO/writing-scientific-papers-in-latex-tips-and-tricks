@@ -51,6 +51,39 @@ Settings in VSCode with increased memory size (pgfplots) and shell escape:
 			"env": {}
 		}
 ```
+
+## Aesthetics
+
+### Highlighting
+
+#### Round label
+
+```latex
+\usepackage{tikz}
+\usepgfplotslibrary{external}
+
+\definecolor{mycolor}{RGB}{112,45,128}
+\newcommand{\roundlabel}[1]{\tikzexternaldisable \tikz[baseline=(char.base)]{
+            \node[rectangle, rounded corners=0.65mm,inner sep=0.65mm,fill=mycolor, draw=mycolor, text=white, font=\itshape](char) {#1};}\tikzexternalenable}
+```
+
+Example usgae: `\roundlabel{Message 5/Conclusion:}`
+
+![image](https://github.com/DRAMCO/writing-scientific-papers-in-latex-tips-and-tricks/assets/8626571/eec84614-0f77-400a-a512-d664b24c884f)
+
+
+
+#### Grey highlight
+
+```latex
+\newcommand{\syntaxHighlight}[1]{\colorbox{black!10}{#1}}
+```
+
+Example usage: `\syntaxHighlight{chapters/contributors.tex}`
+
+![image](https://github.com/DRAMCO/writing-scientific-papers-in-latex-tips-and-tricks/assets/8626571/ef6527a8-d869-48f8-8ba8-6e0fdd42a966)
+
+
 ## Meta
 
 ### Finding weird Unicode
