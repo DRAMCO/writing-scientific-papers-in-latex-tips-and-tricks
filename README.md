@@ -275,7 +275,9 @@ example:
 
 Usage: 
 ```bash
+pip install arxiv_latex_cleaner
 arxiv_latex_cleaner ./ --keep_bib --verbose
+tar -jcvf arxiv.tar.gz gwffzkzgrjgpqksqdkfgtvzkfnjwghny_arXiv/
 ```
 
 #### LaTeX cleaner's main features:
