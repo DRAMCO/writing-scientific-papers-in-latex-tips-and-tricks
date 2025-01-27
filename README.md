@@ -29,6 +29,7 @@
   - [Clean-up Project](#clean-up-project)
     - [LaTeX cleaner's main features:](#latex-cleaners-main-features)
   - [Shortening a Paper](#shortening-a-paper)
+  - [Reducing space after caption](#reducing-space-after-caption)
     - [Biblatex hacks](#biblatex-hacks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
