@@ -307,6 +307,11 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 
 ### Shortening a Paper
 
+### Reducing space after caption
+```latex
+\setlength{\belowcaptionskip}{-20pt} % in the preamble
+```
+
 #### Biblatex hacks
 - You can check how many times a certain reference is cited in the text. In this example, every reference which is only cited once is colored red. 
 ```latex
