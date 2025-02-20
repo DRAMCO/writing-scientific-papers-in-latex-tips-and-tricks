@@ -351,7 +351,6 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 	number       = 52,
 	pages        = 2211273,
 	doi          = {https://doi.org/10.1002/adma.202211273},
-    new = yes,
 }
 ```
 
@@ -368,8 +367,12 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 
 % Make a highlighted category
 \DeclareBibliographyCategory{highlighted}
-% Add specific bib entry to category
+
+% Add specific bib entries to category
 \addtocategory{highlighted}{biodegradables}
+\addtocategory{highlighted}{other_bib_item}
+\addtocategory{highlighted}{another_bib_item}
+
 \AtEveryBibitem{%
   \ifcategory{highlighted}{\startcolor}{\resetcolor}
 }
