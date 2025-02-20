@@ -31,6 +31,8 @@
   - [Shortening a Paper](#shortening-a-paper)
   - [Reducing space after caption](#reducing-space-after-caption)
     - [Biblatex hacks](#biblatex-hacks)
+- [Updating manuscript](#updating-manuscript)
+  - [Change color of single reference using biblatex](#change-color-of-single-reference-using-biblatex)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
