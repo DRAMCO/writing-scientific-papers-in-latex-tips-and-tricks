@@ -334,3 +334,41 @@ There is a 50MB limit on arXiv submissions, so to make it fit:
 	- remove \usepackage{ulem}
    	- remove \usepackage{cite}
 	- remove \usepackage{natbib}
+ 
+## Updating manuscript
+### Change color of single reference using biblatex
+
+```latex
+% Example bib entry
+@article{biodegradables,
+	title        = {{Recent Advances in Biodegradable Green Electronic Materials and Sensor Applications}},
+	author       = {Min, JinKi and Jung, Yeongju and Ahn, Jiyong and Lee, Jae Gun and Lee, Jinwoo and Ko, Seung Hwan},
+	year         = 2023,
+	journal      = {Advanced Materials},
+	volume       = 35,
+	number       = 52,
+	pages        = 2211273,
+	doi          = {https://doi.org/10.1002/adma.202211273},
+    new = yes,
+}
+```
+
+```latex
+% Define start and reset color
+\makeatletter
+\newcommand{\startcolor}{%
+  \color{RoyalBlue}\global\let\default@color\current@color
+}
+\newcommand{\resetcolor}{%
+  \color{black}\global\let\default@color\current@color
+}
+\makeatother
+
+% Make a highlighted category
+\DeclareBibliographyCategory{highlighted}
+% Add specific bib entry to category
+\addtocategory{highlighted}{biodegradables}
+\AtEveryBibitem{%
+  \ifcategory{highlighted}{\startcolor}{\resetcolor}
+}
+```
