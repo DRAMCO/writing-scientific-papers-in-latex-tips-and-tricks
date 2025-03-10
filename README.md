@@ -6,6 +6,7 @@
 
 - [TeX Engine Settings](#tex-engine-settings)
 - [Aesthetics](#aesthetics)
+  - [Balancing Columns on the Last Page in a Two-Column Document](#balancing-columns-on-the-last-page-in-a-two-column-document)
   - [Highlighting](#highlighting)
     - [Round label](#round-label)
     - [Grey highlight](#grey-highlight)
