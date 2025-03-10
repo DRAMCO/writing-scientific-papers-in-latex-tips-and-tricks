@@ -61,6 +61,15 @@ Settings in VSCode with increased memory size (pgfplots) and shell escape:
 
 ## Aesthetics
 
+### Balancing Columns on the Last Page in a Two-Column Document
+
+In LaTeX, when using a two-column format, the last page may sometimes have only one full column, leaving an unbalanced layout. To ensure both columns are evenly distributed, use the `balance` package. Adding `\balance` before the last content forces LaTeX to split the text evenly across both columns. This results in a cleaner and more professional layout, avoiding a single long column with excessive white space. If fine-tuning is needed, manual adjustments with `\vfill` and `\newpage` can be used. Example:
+
+```latex
+\usepackage{balance}  % Include in the preamble
+\balance  % Place before the last content
+```
+
 ### Highlighting
 
 #### Round label
