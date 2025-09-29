@@ -247,6 +247,10 @@ Always be aware there is a difference in citation style and bibliography style.
 
 ## Figures
 
+### ETH Figure Tool 
+
+![ETH Figure Tool](https://www.bsaver.io/misc/pretty-figures)
+
 ### Python to Tikz
 
 tikzplotlib
