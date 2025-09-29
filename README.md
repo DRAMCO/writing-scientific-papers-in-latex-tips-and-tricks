@@ -23,6 +23,7 @@
 - [SI-units](#si-units)
 - [Clever reference](#clever-reference)
 - [Figures](#figures)
+  - [Color schemes](#color-schemes)
   - [ETH Figure Tool](#eth-figure-tool)
   - [Python to Tikz](#python-to-tikz)
   - [Extract data from existing figures](#extract-data-from-existing-figures)
