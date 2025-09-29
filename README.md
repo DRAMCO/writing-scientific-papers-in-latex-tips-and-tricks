@@ -248,6 +248,10 @@ Always be aware there is a difference in citation style and bibliography style.
 
 ## Figures
 
+### Color schemes
+
+https://sronpersonalpages.nl/~pault/#sec:qualitative
+
 ### ETH Figure Tool 
 
 
