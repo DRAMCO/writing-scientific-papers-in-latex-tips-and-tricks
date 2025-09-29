@@ -252,7 +252,7 @@ Always be aware there is a difference in citation style and bibliography style.
 
 
 https://www.bsaver.io/misc/pretty-figures
-![ETH Figure Tool]([https://www.bsaver.io/misc/pretty-figures](https://lh3.googleusercontent.com/sitesv/AICyYdbP8Kk0avrznKHvOwjxWPEm4hgXuvKRf-tyoeedKSxDb1_dZvgIn41JiHq4fdsnsQMLeheO9Nbzx-e2mjQE4OLnoPkcwm9eGiHJx2ptQ7LpGD5RVxOatfDGvxFj77_JBTqJVtQt1BaDVyOJIDcxvZjp2Mo8wJNfc5zRClGezR1JkfFsVTmqhZG9ayQZC-NoqRmqfPGQCxMsk_eIXr5iQo6fOmbU5y4fWmn5=w1280))
+![](https://lh3.googleusercontent.com/sitesv/AICyYdYdhFk039PPQQn_tXNjJ-cHaurIc1VhXXCy2kJzZ9rnaFS1DJNMEvICdS8VVGLuETTxDOVJIzs_9-Oc6EkAoFpsUF0tKKGYVTXRaEN9JTug3CyA6rL7H8FODT0rnbwVzEDM-07ZhL_Hw4sMBvv0U79t1dlrMv6qweIrvM3zh9965gt0Fptiw-DWc9JXven7nEm5myXsiyX32d3NVrQjvQFPBpaiZCfws8Ch_kM=w1280)
 
 ### Python to Tikz
 
