@@ -250,7 +250,9 @@ Always be aware there is a difference in citation style and bibliography style.
 
 ### ETH Figure Tool 
 
-![ETH Figure Tool](https://www.bsaver.io/misc/pretty-figures)
+
+https://www.bsaver.io/misc/pretty-figures
+![ETH Figure Tool]([https://www.bsaver.io/misc/pretty-figures](https://lh3.googleusercontent.com/sitesv/AICyYdbP8Kk0avrznKHvOwjxWPEm4hgXuvKRf-tyoeedKSxDb1_dZvgIn41JiHq4fdsnsQMLeheO9Nbzx-e2mjQE4OLnoPkcwm9eGiHJx2ptQ7LpGD5RVxOatfDGvxFj77_JBTqJVtQt1BaDVyOJIDcxvZjp2Mo8wJNfc5zRClGezR1JkfFsVTmqhZG9ayQZC-NoqRmqfPGQCxMsk_eIXr5iQo6fOmbU5y4fWmn5=w1280))
 
 ### Python to Tikz
 
